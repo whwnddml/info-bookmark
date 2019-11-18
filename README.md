@@ -1,5 +1,7 @@
 구글 OTP (TOTP)를 적용하기 위한 샘플 작업
+
 1. 프로젝트를 생성하며, 아래의 라이브러리를 추가한다.
+
 dependencies {
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
 	compile("org.springframework.boot:spring-boot-starter-security")
@@ -19,6 +21,7 @@ dependencies {
 }
 
 <참고>
+
 위의 디펜던시 중 spring5와 googleauth 는 별도로 mavenrepository 에서 구해온다.
 (spring starter에서 검색 안됨)
 
