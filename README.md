@@ -1,6 +1,6 @@
-±¸±Û OTP (TOTP)¸¦ Àû¿ëÇÏ±â À§ÇÑ »ùÇÃ ÀÛ¾÷
+êµ¬ê¸€ OTP (TOTP)ë¥¼ ì ìš©í•˜ê¸° ìœ„í•œ ìƒ˜í”Œ ì‘ì—…
 
-1. ÇÁ·ÎÁ§Æ®¸¦ »ı¼ºÇÏ¸ç, ¾Æ·¡ÀÇ ¶óÀÌºê·¯¸®¸¦ Ãß°¡ÇÑ´Ù.
+1. í”„ë¡œì íŠ¸ë¥¼ ìƒì„±í•˜ë©°, ì•„ë˜ì˜ ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ ì¶”ê°€í•œë‹¤.
 
  dependencies {
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
@@ -16,14 +16,14 @@
 	testCompile("org.springframework.boot:spring-boot-starter-test")
  }
 
-<Âü°í>
+<ì°¸ê³ >
 
-À§ÀÇ µğÆæ´ø½Ã Áß spring5¿Í googleauth ´Â º°µµ·Î mavenrepository ¿¡¼­ ±¸ÇØ¿Â´Ù.
-(spring starter¿¡¼­ °Ë»ö ¾ÈµÊ)
+ìœ„ì˜ ë””íœë˜ì‹œ ì¤‘ spring5ì™€ googleauth ëŠ” ë³„ë„ë¡œ mavenrepository ì—ì„œ êµ¬í•´ì˜¨ë‹¤.
+(spring starterì—ì„œ ê²€ìƒ‰ ì•ˆë¨)
 
-2. ±âº» ÇÁ·ÎÁ§Æ®¸¸ »ı¼º ÈÄ http://localhost:8080 À» Ä¡¸é ±âº» ·Î±×ÀÎ Ã¢ÀÌ ³ª¿Â´Ù.
- - ¿©±â¿¡ resources/templates ¹×¿¡ ¼º°ø½Ã º¸¿©ÁÙ index.html ¸¸µéÀÚ.
- - ¼­ºñ½º ±¸µ¿½Ã ÄÜ¼Ö¿¡ º¸¿©ÁÖ´Â Using generated security password : °ªÀ» Ä«ÇÇÇØµĞ´Ù. »ç¿ëÀÚ¸íÀº userÀÌ´Ù.
+2. ê¸°ë³¸ í”„ë¡œì íŠ¸ë§Œ ìƒì„± í›„ http://localhost:8080 ì„ ì¹˜ë©´ ê¸°ë³¸ ë¡œê·¸ì¸ ì°½ì´ ë‚˜ì˜¨ë‹¤.
+ - ì—¬ê¸°ì— resources/templates ë°ì— ì„±ê³µì‹œ ë³´ì—¬ì¤„ index.html ë§Œë“¤ì.
+ - ì„œë¹„ìŠ¤ êµ¬ë™ì‹œ ì½˜ì†”ì— ë³´ì—¬ì£¼ëŠ” Using generated security password : ê°’ì„ ì¹´í”¼í•´ë‘”ë‹¤. ì‚¬ìš©ìëª…ì€ userì´ë‹¤.
  
  <Google Authenticator TOTP>
  - https://java.ihoney.pe.kr/449
@@ -38,4 +38,10 @@
  - https://github.com/hinunbi/eip-practice
  - https://github.com/apache/camel
  - https://www.baeldung.com/apache-camel-spring-boot
+ 
+ 
+ í…ìŠ¤íŠ¸ ì•„ì´ì½˜ ì œì‘ ì‚¬ì´íŠ¸
+ http://patorjk.com/software/taag/#p=display&f=Slant&t=abc
+ 
+ 
  
